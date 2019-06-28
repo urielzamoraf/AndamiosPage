@@ -1,15 +1,25 @@
 .menubar{
-    color: black;
+    color:white;
     font-size: 20px;   
     font-family: 'Roboto';
-    background-color: white;
+    background-color:black;
     border: none;
     height: 100%;
-    height: 100%;
+
 }
 
-.titulo{
+#idnav{
+    height:55px;
+    background-color:black;
+    border: 0px;
+
+    
+}
+
+#titulo{
     font-family: 'Roboto';
+    height: 150px;
+    background-color: aqua;
 }
 
 .logo{
@@ -58,4 +68,19 @@
 
 .font-footer{
     font-family: 'Laila', serif;
+}
+
+#relleno{
+height: 120px;
+}
+
+.menubar:hover{
+    height:50px;
+    background-color:red;
+    position: static;
+    margin:0px;
+}
+
+.item-nav{
+    text-decoration: none;
 }
