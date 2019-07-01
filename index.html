@@ -9,7 +9,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Copse|Laila&display=swap" rel="stylesheet"> 
-         <link rel="stylesheet" href="css/Estilos.css"/>
+        <link rel="stylesheet" href="css/Estilos.css"/>
+        <!--Carousel de logos-->
+        <link rel="stylesheet" href="owl.carousel.min.css">
+        <link rel="stylesheet" href="owl.theme.default.min.css"> 
+        <style>
+                .owl-dots{
+                    display:none;}
+        </style>
     <title>Andamios y Cimbras R y M</title>
 </head>
 <body>
@@ -39,85 +46,110 @@
                 </nav>
             </header>
     <div class="container">
-    
-        <div class="col-md-5">
+        <div class="col-md-5 float-left">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
                 </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="images/IMG-20190608-WA0029.jpg" alt="ASP.NET" class="img-responsive" />
-                        <div class="carousel-caption" role="option">
-                           
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images/IMG-20190608-WA0029.jpg" class="img-responsive"/>
+                                    <div class="carousel-caption" role="option">
+                                        <h3>Insertar descripcion (pendiente)</h3>
+                            </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/IMG-20190608-WA0040-2.jpg"  class="img-responsive" />
+                                    <div class="carousel-caption" role="option"> 
+                                        <h3>Insertar descripcion (pendiente)</h3>
+                            </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/IMG-20190608-WA0041.jpg"  class="img-responsive" />
+                                    <div class="carousel-caption" role="option">
+                                        <h3>Insertar descripcion (pendiente)</h3>
+                            </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/IMG-20190608-WA0045.jpg"  class="img-responsive" />
+                                    <div class="carousel-caption" role="option">
+                                        <h3>Insertar descripcion (pendiente)</h3>
+                            </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/IMG-20190608-WA0044.jpg"  class="img-responsive" />
+                                    <div class="carousel-caption" role="option">
+                                        <h3>Insertar descripcion (pendiente)</h3>
+                                    </div>
+                            </div>                        
                         </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/IMG-20190608-WA0040.jpg" alt="Visual Studio" class="img-responsive" />
-                        <div class="carousel-caption" role="option">
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="images/IMG-20190608-WA0041.jpg" alt="Microsoft Azure" class="img-responsive" />
-                        <div class="carousel-caption" role="option">
-                           
-                        </div>
-                    </div>                    
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                            </a>
                 </div>
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-    </div> 
-</div>
+         
+            <div class="col-md-7 float-right">
+                <h1>Algunos de nuestros clientes</h1>
+                    <div class="owl-carousel owl-theme">
+                   
+                       <div class="item">
+                           <img src="images/mygisa.png" class="img-responsive">
+                       </div>
+                       <div class="item">
+                           <img src="images/logo_faser.png" class="img-responsive">
+                       </div>
+                       <div class="item">
+                           <img src="images/logotip_ajuntament.jpg" class="img-responsive">
+                       </div>
+                       <div class="item">
+                           <img src="images/minera_boleo.jpg" class="img-responsive">
+                       </div>
+                    </div>
+            </div>
+        </div>
     <hr>
-
     <footer class="col-md-12 bg-primary container-footer font-footer">
-            <div class="col-md-2">
-                    <h1 class="pt-10">Contacto</h1> 
-
+        <div class="col-md-2">
+            <h1 class="pt-10">Contáctanos</h1> 
+        </div>
+        <div class="col-md-4 row">
+            <div class="col-md-1">
+                <i class="material-icons icons-pad" alt="phone" >phone</i >
             </div>
-            
-            <div class="col-md-4 row">
-                <div class="col-md-1">
-                    <i class="material-icons icons-pad" alt="phone" >phone</i >
-                </div>
                 <div class="col-md-11 pt-10">
                     <h5>Celular: (442) 66-752-78</h5>
                 </div>
-                
                 <div class="col-md-1">
-                    
                 </div>
                 <div class="col-md-11">
                     <h5>Oficina Tampico: (833) 27-403-66</h5>
                 </div>
                 <div class="col-md-1">
-                    
                 </div>
                 <div class="col-md-11">
                     <h5>Oficina Mérida: (999) 40-018-97</h5>
                 </div>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-1">
+                <a href="https://goo.gl/maps/3FrvM9mxKmgQfZxR7" class="a-footer"><i class="material-icons icons-pad">location_on</i ></a> 
             </div>
-            <div class="col-md-6">
-                    <div class="col-md-1">
-                     <a href="https://goo.gl/maps/3FrvM9mxKmgQfZxR7" class="a-footer"><i class="material-icons icons-pad">location_on</i ></a> 
-                    </div>
-                    <div>
-                        <h5>Dirección: Calle Guanajuato No. 207 Sur Colonia Universidad Nacional 
-                                C.P. 89410, Ciudad Madero, Tamaulipas.</h5> 
-                    </div>
             <div>
+                <h5>Dirección: Calle Guanajuato No. 207 Sur Colonia Universidad Nacional 
+                C.P. 89410, Ciudad Madero, Tamaulipas.</h5> 
             </div>
+            <div>
+        </div>
                 <div class="col-md-1">
                         <i class="material-icons icons-pad" alt="location">email</i >
                 </div>
@@ -127,5 +159,8 @@
                 </div>
             </div>           
     </footer>
+    <script src="jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="jqer.js"></script> 
 </body>
 </html>
