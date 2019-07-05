@@ -113,15 +113,23 @@ li:nth-child(3):hover ~ .line{
     
 }
 
+li:nth-child(4):hover ~ .line{
+    transform: translate(330px);
+    margin-left: 9px;
+    
+}
+
+
+
 li{
 }
 
-.zoom{
+.zoomheader{
     margin: 0 auto;
     transition: transform .2;
 }
 
-.zoom:hover{
+.zoomheader:hover{
     transform: scale(1.5);
 }
 
@@ -143,9 +151,39 @@ li{
     width: 160px;
     height: 65px;
     background-color: white;
-    display:block;
     text-align: center;
 }
+
+.imageproyectos{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    display: block;
+    border: none;
+
+}
+
+.zoom-proyectos{
+    overflow: hidden;
+    transition: all 1.5s ease;
+    position: relative;
+    display: block;
+   
+}
+
+.zoom-proyectos img {
+    display: block;
+    position: relative;
+    transition: all 1.5s ease;
+  
+  }
+  
+
+.zoom-proyectos:hover img{
+    transform: scale(1.1);
+
+}
+
 
 
 
