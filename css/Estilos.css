@@ -71,7 +71,8 @@
 
 
 .container-footer{
-    height: 90px;
+    height: 110px;
+    padding-top: 10px;
 }
 
 .a-footer{
@@ -116,6 +117,12 @@ li:nth-child(3):hover ~ .line{
 li:nth-child(4):hover ~ .line{
     transform: translate(330px);
     margin-left: 9px;
+    
+}
+
+li:nth-child(5):hover ~ .line{
+    transform: translate(440px);
+    margin-left: 13px;
     
 }
 
@@ -182,6 +189,10 @@ li{
 .zoom-proyectos:hover img{
     transform: scale(1.1);
 
+}
+
+.panel-default{
+    border: none
 }
 
 
