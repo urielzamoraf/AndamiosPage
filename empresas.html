@@ -9,13 +9,19 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Copse|Laila&display=swap" rel="stylesheet"> 
-         <link rel="stylesheet" href="css/Estilos.css"/>
+        <link rel="stylesheet" href="css/Estilos.css"/>
+         <!--Carousel de logos-->
+        <link rel="stylesheet" href="owl.carousel.min.css">
+        <link rel="stylesheet" href="owl.theme.default.min.css"> 
+        <style>
+                .owl-dots{
+                    display:none;}
+        </style>
     <title>Clientes | R y M</title>
 </head>
 <body>
         <header>
                 <div class="jumbotron col-md-12" style="margin-bottom:0px; background-color:#fdfeff">
-                    
                     <div class="col-md-9">
                             <h2 class="text-capitalize display-2">Diseño, dirección y montajes andamios y cimbras RYM S.A. de C.V.</h2>
                             <p>Calidad,Servicio y Confianza</p>
@@ -41,25 +47,53 @@
         <div class="container panel panel-default col-md-12">
             <hr>
             <div class="panel-body">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <h1 class=" display-1 text-center nosotros_titulos">Empresas con las que hemos colaborado</h1>
+                    <div id="relleno"></div>
+                    <h1 class=" text-center nosotros_titulos">
+                        <a href="https://www.mice.es/">Mice</a>
+                        °<a href="http://teassa.com.mx/">Teassa</a>
+                        °<a href="http://www.mygisa.com.mx/">Mygisa</a>
+                        °<a href="http://www.emalag.com.mx/">Emalag</a>
+                        °<a href="http://mrpmx.com.mx/">MRP</a>
+                        °<a href="http://www.faserfrp.com/">Faser</a>
+                        °Gerberary Electric
+                        °Ica Fluor
+                        °Minera Peñasquisto,Zacatecas</h1>
+                    <div class="col-md-2"></div>
+                    <div id="relleno"></div>
+                    <div id="relleno"></div>                        
+                </div>
                 
-        <h1 class="text-center nosotros_titulos">Empresas con las que hemos colaborado</h1>
-        <ul>
-            <li class="h4 text-justify parrafo_nosotros"><a href="https://www.mice.es/">Mice.</a></li>
-            <li class="h4 text-justify parrafo_nosotros"><a href="http://teassa.com.mx/">Teassa.</a></li>
-            <li class="h4 text-justify parrafo_nosotros"><a href="http://www.mygisa.com.mx/">Mygisa.</a></li>
-            <li class="h4 text-justify parrafo_nosotros"><a href="http://www.emalag.com.mx/">Emalag.</a></li>
-            <li class="h4 text-justify parrafo_nosotros"><a href="http://mrpmx.com.mx/">MRP (Mexicana de Recipientes a Presión).</a></li>
-            <li class="h4 text-justify parrafo_nosotros">Gerberary Electric.</li>
-            <li class="h4 text-justify parrafo_nosotros">Ica Fluor.</li>
-            <li class="h4 text-justify parrafo_nosotros"><a href="http://www.faserfrp.com/">Faser.</a></li>
-            <li class="h4 text-justify parrafo_nosotros">Minería Peñasquito,Zacatecas.</li>
-        </ul>
-
+                <div class="row col-md-12">
+                        <div class="owl-carousel owl-theme" style="margin: 10px;">
+                   
+                                <div class="item" style="margin-right:20px; margin-left: 20px; width: 134;">
+                                    <img src="images/mygisa.png" class="img-responsive container-image">
+                                </div>
+                                <div class="item" style="margin-right:20px; margin-left: 20px; width:134;">
+                                    <img src="images/logo_faser.png" class="img-responsive container-image">
+                                </div>
+                                <div class="item" style="margin-right:20px; margin-left: 20px; width:134;">
+                                    <img src="images/logotip_ajuntament.jpg" class="img-responsive container-image">
+                                </div>
+                                <div class="item" style="margin-right:20px; margin-left: 20px; width:134;">
+                                    <img src="images/minera_boleo.jpg" class="img-responsive container-image">
+                                </div>
+                                <div class="item" style="margin-right:20px; margin-left: 20px; width:134;">
+                                     <img src="images/mrp.png" class="img-responsive container-image">
+                                 </div>
+                                 <div class="item" style="margin-right:20px; margin-left: 20px; width:134;">
+                                         <img src="images/teassa.PNG" class="img-responsive container-image">
+                                 </div>
+                                 <div class="item" style="margin-right:20px; margin-left: 20px; width:134;">
+                                         <img src="images/ICA-Fluor-logo-RECH-Constructora-compressor.png" class="img-responsive container-image">
+                                     </div>
+                             </div> 
+                </div>
             </div>
-
-        </div>
-
-            
+        </div>    
 
         <footer class="col-md-12 container-footer font-footer" style="background-color:grey">
                 <div class="col-md-3">
@@ -104,5 +138,8 @@
                         </div>
                     </div>           
             </footer>
+            <script src="jquery.min.js"></script>
+            <script src="owl.carousel.min.js"></script>
+            <script src="jqer.js"></script> 
 </body>
 </html>
